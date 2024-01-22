@@ -1,0 +1,23 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": "VerifiableCredential",
+    "issuanceDate": "2023-11-19T17:58:05.382Z",
+    "credentialSubject": {
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+        "type": "gx:GaiaXTermsAndConditions",
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc_hamburg.json"
+    },
+    "issuer": "did:web:delta-dao.com",
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc_hamburg.json",
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2023-11-19T17:58:29.602Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nVMcxEDzgwFB8ksSLk7Iwul_EReGmv9RbdhDnwccBXuLCdZnigQBUHilLxWoxbUhcR93GZDuUmg0Hfxc9RG_HYVMs43nKgPWSQyoHH-Vz9AR-rsx2jF1dTuEye2SuEckqxd9V-pU0cD3kyk9bn3rtH-yvPWSx335kQbxQgwgSg4_HFU_RXaC2cek_BSiQruA_estxDyX9kj2tl17f13eV1Rofq027G6exsD8ZkXvEntIKfz825auMDPs4pLi2z1ykJLSzJ4PtgSyTyHyRlE19FsZwVCHFoEzmQZNKWjVd6tqP8fHf9PJ5VWzVtHbot07invdpFE3GcEr_o-coNOAH_PlxoyyzLZSpP3ItgLByyOEfzf6_t9HMmbYSExJgO-jL_7byzCex70VLWmORACXSC5Rze98vVA0iDM-ydoMOLhlfAX71V1Jmu7Kba6XggYlykNjyFvE2v4-QWqhVRSlW8cuU5Zy6ljJKfOuAs5nhXuIkIOWoP8n0jZl1fL3rhz04bU7jQBqIJF___LxcT0iAzlUuBD4zv5suYt8Wn2jf7KlXxQtFRbrcxXuCcnA79HsCkUu1Fj1KWv3D4Vimp5SKpHW90sp-WDFJDkTNUBrQki2Q7j_qb-YC4f-yyXBqUQKH6FZuHOmm_JBDRLFUbqt5cWA4PQr1-MBUoix7NDWvo8"
+    }
+}
