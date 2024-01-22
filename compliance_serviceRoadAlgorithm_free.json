@@ -1,0 +1,55 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://storage.gaia-x.eu/credential-offers/b3e0a068-4bf8-4796-932e-2fa83043e203",
+  "issuer": "did:web:gx-compliance.aruba.it:v1",
+  "issuanceDate": "2024-01-22T07:54:25.106Z",
+  "expirationDate": "2024-04-21T07:54:25.106Z",
+  "credentialSubject": [
+    {
+      "type": "gx:compliance",
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json",
+      "gx:integrity": "sha256-131a82c14adb2b3d5b05ab7455418d38a93fbf53d4d4b0969b8a4bc9a6537fea",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:LegalParticipant"
+    },
+    {
+      "type": "gx:compliance",
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber.json",
+      "gx:integrity": "sha256-02ee6faea38c9db600cda40e49a549daa918bbed5b7f1a12a84fa0bf8f611ead",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:legalRegistrationNumber"
+    },
+    {
+      "type": "gx:compliance",
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json",
+      "gx:integrity": "sha256-6249cd8f23f0e986e1ceca17874fbaf0d72836947c3ce0aa7c778bd65dde5139",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:GaiaXTermsAndConditions"
+    },
+    {
+      "type": "gx:compliance",
+      "id": "https://delta-dao.com/.well-known/serviceRoadAlgorithm_free.json",
+      "gx:integrity": "sha256-ede944bfc1552e52987f6c42a8764e6d8d84a97740231898e5ec346a6c53f004",
+      "gx:integrityNormalization": "RFC8785:JCS",
+      "gx:version": "22.10",
+      "gx:type": "gx:ServiceOffering"
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2024-01-22T07:54:25.111Z",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..s4kCapezwb6Q4CK373Pyd8bdLa9rzKqrhHFN4QDxI8L2qrG9sREZRw2LfwvcIX3BKWQ3WZB4tHtGgAn_Z5nBvYMAu3lBT6DRJgPOKnDicXWNsPYlnkyz1iV6GN0SZjiM6rBlfyuzSnwSg7vBseQCsDIu-tPJ7zhbA8KrjApmKxR1AXvWMZ-RX2I0XyICtKL-tcHqqF7Pef2WdZzoIQEc4j3ZW5cZQ2k0t8Wpvi4iii8MP02e7JudhjaJfiBqoq3EIfEYdTac3xi3mcau8m-C3J3QOLrhFCVIbYnwv83v2XlnUtq3I7-fgltQgsDG2VmmkUEPBZKpw7oTVWkEWHkG0g",
+    "verificationMethod": "did:web:gx-compliance.aruba.it:v1#X509-JWK2020"
+  }
+}
