@@ -1,0 +1,113 @@
+{
+    "@context": "https://www.w3.org/2018/credentials/v1",
+    "type": "VerifiablePresentation",
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Materna.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2023-09-22T07:50:29.169Z",
+            "credentialSubject": {
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Materna.json",
+                "type": "gx:LegalParticipant",
+                "gx:name": "Materna SE",
+                "gx:legalName": "Materna Information & Communications SE",
+                "gx:website": "https://www.materna.de",
+                "gx:legalRegistrationNumber": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Materna.json"
+                },
+                "gx:headquarterAddress": {
+                    "gx:countrySubdivisionCode": "DE-NW",
+                    "gx:addressCountryCode": "DE",
+                    "gx:streetAddress": "Voßkuhle 37",
+                    "gx:postalCode": "44141",
+                    "gx:locality": "Dortmund"
+                },
+                "gx:legalAddress": {
+                    "gx:countrySubdivisionCode": "DE-NW",
+                    "gx:addressCountryCode": "DE",
+                    "gx:streetAddress": "Voßkuhle 37",
+                    "gx:postalCode": "44141",
+                    "gx:locality": "Dortmund"
+                },
+                "gx:blockchainAccountId": [
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xE90e1f337cBBaeD2bf30dD66165246e477F59158"
+                    }
+                ]
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2023-09-22T07:50:30.492Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rorM5pOkurAnL9CbtouQPP-W35MrNPCn1xLOivzxhzBcwdNBufHTC95hV2Rs_l7pIlxGLBLYGuL1iFa0CCfCpUNnOQ0IuXw-mcd7x4U78-T1SC02l9ivhW8rB4tQBkFNC2wu5aiF_w7sTIHf0WJ0sFW2KzXTyni1KqQfLZAZbu3CLYoFU9WnI7BsADgRpdrYUyOKKoDvOWNkkxemuV2k-SR8wDbFQevR3Bu2ocNuJHg8gO8fp3SszkFW3T7rsF1Lq6WMIGdk-XCY491ig3-ghl_NCSq72WlPzQ6TVTHkEm3cTTxqudTEYHYr2KR9lln2NAXL77gcFGaen59xaQqKR5RGk5iRtv76xyLA7NFdpSJAY8NXFNxOl2Nsq0CZmpkPDS5JVA6NbW_0goPvZbjB5VMkyIo8KM0N7oWqiFvJBGcu_8fL6A7O6dj58MOTEpmXxsglP0CK-3CxRaAtvk5piiZOD8YmugH_Y-fQwBkr-R2-EIu5QfAA1ckkdmllwQpxUMWukpY71Mnb-hY2arFaF6MDAQygksZy1Njs07i5UZCxfvHO8Euhc62AkRRLiAHGbi9AuI6vokhzdIorJmTpUGnIJFYWrloMSYRPZ3pDZ8fLg0cCVb7MSoDxfTAprtj1ZUmE_1KoV-QgPdNvY9H87lA56Sgdxx07fB0CLUejlac"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Materna.json",
+            "issuer": "did:web:registration.lab.gaia-x.eu:v1",
+            "issuanceDate": "2023-09-22T07:51:26.157Z",
+            "credentialSubject": {
+                "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+                "type": "gx:legalRegistrationNumber",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Materna.json",
+                "gx:vatID": "DE124904070",
+                "gx:vatID-countryCode": "DE"
+            },
+            "evidence": [
+                {
+                    "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+                    "gx:executionDate": "2023-09-22T07:51:26.157Z",
+                    "gx:evidenceOf": "gx:vatID"
+                }
+            ],
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2023-09-22T07:51:27.046Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1#X509-JWK2020",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KyGLsJdOqJaK_gzFaWDWOaOkPMt-GkF-JOBklIerpsTCdhtKGgQx9Sd-CsrvSilzK7HvC8tf6_IdtmIAlWYrbK0ue_fOZSuRSEdFauKGjscD6LEFYSADOXv7DWC5HRmWT8vZiCd1aNjhoXAofz-7AczU7Ht3QombLffhu8RXCTJsl_c7u3hVF2BRQyeoucQlCnoGEpZbZX0IrWkYHMo6TSha4CPCXFKwuQXX3Zst-XCzX8kRDWiBUe0_3abO0KIQSsnfA4L8e4st1pPK9-3JeddSI5h_kMI-lpEr0uxyR7HqjjG_wfhCceJhPVwn_jBM9UytcSddTTit6BSjrXSR_Q"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": "VerifiableCredential",
+            "issuanceDate": "2023-09-22T07:53:24.280Z",
+            "credentialSubject": {
+                "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+                "type": "gx:GaiaXTermsAndConditions",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc_Materna.json"
+            },
+            "issuer": "did:web:delta-dao.com",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc_Materna.json",
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2023-09-22T07:53:38.751Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JkMpB7Qwe5WtrEno6sDfH-tdZ-_ZXF49lkhwtREkMA0Z20QgOKRZ-mTUPBgDnekanbJS0brG7iRKdU6XdI5bvBFprk03qT23ttgEUh6fDmdDImxyF_QIn8jNtz4bv1q25-d8lgifh9YTRNTG5_k61P-Eic1Y8695HWlyAddMua7vs2wWJB8TAlM4dyG9JFlYUMwsDth8QnZxa3l48h0cmftKkSimZJ61aMhjCscJwd0ahB9fEi82i4DK-Db09LNcZ-yc8pMT5okrnyX3aL8fq56TGIihx5Z82byVZ-VrLwu_q9xA2u1zCyPn8wcpUdTxXtpbRuDoNRyb7eIefaFdeMH6FAOMbPmxh2O-fuEqSYa7nCmFav4aCqPYO9D7YlwPL0VUPUQgVJQtNDzD4KjG0_AU1E3mdMGUeqdAys-geLtHDuOg77c-iEWfogJyEM3FG8jmZZPDvM_7-R7yLLaYrfn4L33qGZWhgAZuxBZrZF2tkRhi_dyvU0Z_EVhFHGYoBNeKEqZlmq-PhZc5jUhymas0LpNEBiWz0Imc2L2jY-DnBq5V0x5k-bh_1nb6tf4FoRNPDuMmdJJEs2CqtSvAAJtxK9Lkm0Q150brjqvmsH42QXuelzXmko4191iqI5-LtZPoBuZ-CyimHBJiSp6irdztahISgj46jpKTP9eyLQo"
+            }
+        }
+    ]
+}
