@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Materna.json",
+    "issuer": "did:web:registration.lab.gaia-x.eu:v1",
+    "issuanceDate": "2023-09-22T07:51:26.157Z",
+    "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Materna.json",
+        "gx:vatID": "DE124904070",
+        "gx:vatID-countryCode": "DE"
+    },
+    "evidence": [
+        {
+            "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+            "gx:executionDate": "2023-09-22T07:51:26.157Z",
+            "gx:evidenceOf": "gx:vatID"
+        }
+    ],
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2023-09-22T07:51:27.046Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:registration.lab.gaia-x.eu:v1#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KyGLsJdOqJaK_gzFaWDWOaOkPMt-GkF-JOBklIerpsTCdhtKGgQx9Sd-CsrvSilzK7HvC8tf6_IdtmIAlWYrbK0ue_fOZSuRSEdFauKGjscD6LEFYSADOXv7DWC5HRmWT8vZiCd1aNjhoXAofz-7AczU7Ht3QombLffhu8RXCTJsl_c7u3hVF2BRQyeoucQlCnoGEpZbZX0IrWkYHMo6TSha4CPCXFKwuQXX3Zst-XCzX8kRDWiBUe0_3abO0KIQSsnfA4L8e4st1pPK9-3JeddSI5h_kMI-lpEr0uxyR7HqjjG_wfhCceJhPVwn_jBM9UytcSddTTit6BSjrXSR_Q"
+    }
+}
