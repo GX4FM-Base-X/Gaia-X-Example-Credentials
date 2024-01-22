@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_hamburg.json",
+    "issuer": "did:web:gx-notary.gxdch.dih.telekom.com:v1",
+    "issuanceDate": "2023-11-19T17:55:13.295Z",
+    "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_hamburg.json",
+        "gx:vatID": "DE118509725",
+        "gx:vatID-countryCode": "DE"
+    },
+    "evidence": [
+        {
+            "gx:evidenceURL": "https://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+            "gx:executionDate": "2023-11-19T17:55:13.295Z",
+            "gx:evidenceOf": "gx:vatID"
+        }
+    ],
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2023-11-19T17:55:13.313Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:gx-notary.gxdch.dih.telekom.com:v1#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..id-07ktWCqT_MYDjTMjg8SxLFq_PYHziveI8phVCXP9eANO0MwBEktZn-mkCtQ7gt-qIj9hg5WIENtTEf5-t4JcXYw80_x47hA9LzB_Xqj-6NMmMaExfTSvJEDSt-h5cZ_Ms14UtcCRlREaQB1wv-17lwcMEsEMn2Qp8842XrS8VFvRbL7Rd5YPLuMVY8BOeuBGpO9llkshnvQPrld4QupwIuO49VU8V9xSq6ajEjLQnwp0wPOdCwSyjpidJUO8hPqljxA9Ec2AMH8XSo1v5_jgljuYKJSbXQV0w67ZKq4wZgRcZiQe7d6wb-8mY8dpTdKHefQMeAiQ37FvjuMyE-gJqswQE0tO54fbtt0_dzKuDS5Jcd8CjQxENeQIrqIgIFTheGmy16UOVip0IPMdI9WA9vJ9fr-3Z54FvPvg0ltl587_2OwTiS-nH5Pr0LIMBd6QWCa5xvgpS0aFzfvxTxhy8aMvoQWzTP-aux0LUnkQUGpBbf7p2Gn93NqxW2kxJ_5yWB57bPj3IFV6DqFvidFrYKxjsfuMpTJg88Gs5B28yxiWSf3jvIVJaKt_D3IifwZNCjh5DlAYufjIi2XdVBMMBj1WjUIxQmZN-IOFQ5eLXns-AMKuIyyP2dRUULw5pt86Ys-Mi9PO4dXcBfwBwQM-ibT5yKlCG9prtSgYidGs"
+    }
+}
