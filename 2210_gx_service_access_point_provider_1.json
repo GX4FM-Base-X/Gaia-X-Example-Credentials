@@ -1,0 +1,30 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2024-01-29T09:44:54.916Z",
+    "credentialSubject": {
+        "type": "gx:ServiceAccessPoint",
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json",
+        "gx:host": "https://provider.v4.genx.delta-dao.com/",
+        "gx:port": "443",
+        "gx:protocol": "https",
+        "gx:version": "2.1.3",
+        "gx:openAPI": "https://provider.v4.genx.delta-dao.com/",
+        "gx:documentation": "https://docs.oceanprotocol.com/developers/provider"
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-01-29T09:44:54.952Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Xgl8KLf28KO7DrOf_Mpe6dXK_wH3iBWi1YZN1CwI3NoR1atDZsp5sOIbdTbqkERqOao1yR_uBIaStyJvlEK3wlQxB2qtklAAX9tTR9XVT1dLAjfe-dosx594d39Y9rffaJVwOU3uKblP7LxFiq50wl6ByNOb-d1-NwgT5FjaZQkmc3yMnPmAn6kd66f1jFbmWLawslskBkYR_Dbpfcf1LdJwQAldMyWPwjweA9DDFQWfoeN6TmOt-k2fpBUzl-DhyaJ5yWj_PmUueMlCdnH2S8CoBw-6K8B9rAbsUdPAe0g_ykoDNt_nHEqPJ-xRVCEqwqvDjlh6_mY5n3OEH1j-knMZLAPHG9L4dZvrfEwghToeqf9hJZBWkR1A9R4HAAkCbbsZHSnISBeG88MQzrD6q9a1hVp4hhwORUIZIp6lSuOHLhSA31QyPfxNfwrOew5P-lQjx0zLeZkEv8pu6G4nTIwCK1Z7YH1ONPiV4xf8RQdO6GzLK6x2sKw36o2-eFp8roQVJ9hOXZ1ktVvocb_ZqNpSqagVR3S2V16L3bYakjVyngbQKJmYOFEbJGmN5Z4pQ2fL0QvN-i8LHh4a6tjHPjHUWdl_Raf3T2ydzaUcolODLIceaBtoGrC9PquxhLQNiBKZLLbt0PKGqTJXSHPVGaNza3n-gKAtb1ZL5vOrJlU"
+    }
+}
