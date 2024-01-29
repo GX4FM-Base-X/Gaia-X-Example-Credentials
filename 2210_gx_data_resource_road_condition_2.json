@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_2.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2024-01-29T07:13:20.827Z",
+    "credentialSubject": {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_2.json",
+        "type": "gx:DataResource",
+        "gx:name": "Vehicle Data 2",
+        "gx:description": "Contains road condition data. 10 JPG images with 720px resolution in one ZIP archive.",
+        "gx:containsPII": false,
+        "gx:policy": "default: allow",
+        "gx:license": "MIT",
+        "gx:copyrightOwnedBy": "Jay Gala",
+        "gx:producedBy": {
+            "@id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+        },
+        "gx:exposedThrough": {
+            "@id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json"
+        }
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-01-29T07:13:20.857Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KuvmeRSYOaWdgtcy_wFWVOhjgwpSOD5YFeWbgHTGRn7DfK3VChYq8GD-8F9Ed8N_u-Lm9e0wu-Qj8SZEYnlgt6JYV6o6o9JtxyqkQ4Z4TZVaXc60gshRY16cyAhX7XL4GI3zzhLPeUsA1Xbr1VECmFuRf-QA7UwCPqu7alQz3hZoUgU74SOmGrdzVneJAZTfLCnQkYPQq6NK1XGFvvAkXk4forGZ3q_t4iP2rjoiefpimoPBoiFqPZrmo9cjDzKE8X5IJfXBy6sLFxwMuCDh7WTpsR-fIb4_JSqVJk0OIqra3zLt_esxQlgMaG4W2j_Recp3vkFIBG1oXO-9r0ODnbWq-VvSL0xugDrtiPG0-_dSenkzpTtOHx00ETHqACBeErzXR9dQlKvcH8IM6Vu2Sd8GXpITaToQbz5-Kx1RsVdJpvGqDVlgrrGk17MDmMSN-3UUYq5_uNSe6B5s1KcuhSvkEUOInuwxJXv9c-NfNgiHnM8e_jihfMkQm-4-Qm50E6Q_IvVqor2coRT65VgUm1njDZECXSBM5HUW658f9idiLe_7qcEnXBG84op_Kn2hjI3lDNtEVN_aIsf4VjopCIhtpVCG2L8-hhS_wD98AH8Mvt_n0_SPdu9agpWDvuUS8xrUCf35HyjsmEc6ioBOfh7nr3-1CEAfC3yLQxj27Gg"
+    }
+}
