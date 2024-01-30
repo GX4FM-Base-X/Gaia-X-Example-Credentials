@@ -9,7 +9,7 @@
     ],
     "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_3.json",
     "issuer": "did:web:delta-dao.com",
-    "issuanceDate": "2024-01-29T07:14:36.042Z",
+    "issuanceDate": "2024-01-30T12:47:40.952Z",
     "credentialSubject": {
         "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_3.json",
         "type": "gx:DataResource",
@@ -23,14 +23,14 @@
             "@id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
         },
         "gx:exposedThrough": {
-            "@id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json"
+            "@id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json"
         }
     },
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2024-01-29T07:14:36.081Z",
+        "created": "2024-01-30T12:47:40.985Z",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZYZnYQ8XBGQC3nhXN6sg7Adecquhp98oiOpDR_50TdqRkbx4jV0DGPL9HYclB3G8GRXrNfwXYDUgI_WNsljRQodv0uhWranuI075_rUxBUIwVz45s1DcM3GskSdxaq5eEEiYK9i_md2vadX13F2rs-7QvWl0AeXWkVTQpZfilxbaX9cHmDIfu7tXqLo5hB0w21q3Ab_Af55r1gHYljtkjn4mF30ElPXVRG1V0hDF0Sa-Kpfz-1hfaroAg37D-YOJYgXu6SsNbk_lRyAzpwZ3ebCgW7ueeqSdPdn6R1oULERsbWQxA8BL9E5eexls3HUTNestOs_gHJryDa-IhfbXOLYYIGFn4c61P1ryNTRevxPk-L1kW0tgf1fCTnYtPNK8wuVFxmrrw-Cm65iXku0TYLqcjstoPypX1-a6yLeFjz2H10ke4b7nT5RTxkf1R8tSX9K4mMLCIynBQ3WgDTMHLXdZUh83VLQ_3vUVdKam-wizW1WAC6cs8W_1ahtUvkUNv0Jfe8syBjCu0_FEv1BgU0qobkoxqTNXDRL3_HVkLDMiVHNZ_ehq5W4YMwEJggUsBg2H7OoGZjz22nHEKYRftkkTQ_cpOF2VkgxjSS54yj3cCPIdvsnpqqiy5tgHZzopRg2yhFOFJEfEse8pfgLJCRLuUb4jPVaQiQRbiomu_Ug"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qFC5u-OA2Dm656Sh6Oh2gkyBZ632pMGY5b2UHvDzhkgulEvc493V1fvx-HZOV6AVoNOdFIUTUUOYG7Alt5eyJNNk0Sqs9RoHQZKi4lapn65XWplbNC0neCempOGLxuZfy7FuI2DoodQ-Y0pX8sTJWRFqofLpgL8_8-nJ6zcfQLR4ElmstRwfD5wNObz4YGdCbPC9wTxUWwKzwpN1FrKQlaqttOp2oGCUKRhXrkIjiPU9AEmJ-GmV566-A2i7_Js4CmLawLgM3b3Hdb30TAr2mXR0TVC1xmxoh11BLdUmlKG8IDHYBC0Ucfdu2sgMQFl9D5kfuDG9QAPr6q6fGAbpmBuzqeq4PKqeRcFAsNvjyIcJ0Khhi7YtkbflcKmyswvZQakxNF2TyM-Q8F-uBi4Xt-4fZ6EVbYCShs80d5GqEeLma29BhnoRm9ao5Qe6hck15yR4A5sx3rdNRQhZgYRLc1h26WMbqZzqp0U6gDgc3eHYWnPH-EKSHI_dHPCuirkD-59GxlaPdf6c6HAopQbuaW7k8yuv7eIPc-_uwrCxF9M_9kQHFiZSXbMBodJPJYQJvpQ4PvUyiqoNEDXc5ZqUlhfbCn_vzMuodd1n5gHY3_2sNZi9MmMvYTEs298yuq01t3rLanV_yLCmPmIW8rKddFGDP1G4lmN2970MhzWmIPI"
     }
 }
