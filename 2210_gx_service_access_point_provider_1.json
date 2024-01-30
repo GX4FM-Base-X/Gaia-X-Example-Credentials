@@ -9,7 +9,7 @@
     ],
     "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json",
     "issuer": "did:web:delta-dao.com",
-    "issuanceDate": "2024-01-29T09:44:54.916Z",
+    "issuanceDate": "2024-01-30T07:38:40.574Z",
     "credentialSubject": {
         "type": "gx:ServiceAccessPoint",
         "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json",
@@ -22,9 +22,9 @@
     },
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2024-01-29T09:44:54.952Z",
+        "created": "2024-01-30T07:38:40.599Z",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Xgl8KLf28KO7DrOf_Mpe6dXK_wH3iBWi1YZN1CwI3NoR1atDZsp5sOIbdTbqkERqOao1yR_uBIaStyJvlEK3wlQxB2qtklAAX9tTR9XVT1dLAjfe-dosx594d39Y9rffaJVwOU3uKblP7LxFiq50wl6ByNOb-d1-NwgT5FjaZQkmc3yMnPmAn6kd66f1jFbmWLawslskBkYR_Dbpfcf1LdJwQAldMyWPwjweA9DDFQWfoeN6TmOt-k2fpBUzl-DhyaJ5yWj_PmUueMlCdnH2S8CoBw-6K8B9rAbsUdPAe0g_ykoDNt_nHEqPJ-xRVCEqwqvDjlh6_mY5n3OEH1j-knMZLAPHG9L4dZvrfEwghToeqf9hJZBWkR1A9R4HAAkCbbsZHSnISBeG88MQzrD6q9a1hVp4hhwORUIZIp6lSuOHLhSA31QyPfxNfwrOew5P-lQjx0zLeZkEv8pu6G4nTIwCK1Z7YH1ONPiV4xf8RQdO6GzLK6x2sKw36o2-eFp8roQVJ9hOXZ1ktVvocb_ZqNpSqagVR3S2V16L3bYakjVyngbQKJmYOFEbJGmN5Z4pQ2fL0QvN-i8LHh4a6tjHPjHUWdl_Raf3T2ydzaUcolODLIceaBtoGrC9PquxhLQNiBKZLLbt0PKGqTJXSHPVGaNza3n-gKAtb1ZL5vOrJlU"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qqBRCoAos8wel6_rgsko5qDJwa4382jixbUUrKdzocQVDRT8R0nZXI_reOuH8LRdoZf6FNfLrIEenxa5WFVdPT0kFEvdfprgwHaFYKx4JPGvTW01RIZ_aZ0UJS1-B9yg73DQbormaDiwXXE-uwvcgnsKV9U1EcJLOpWYDIr_5M--W5WgUJYPvFy74wXLNd0sgGtbF9UymjnAJ-MjzMwJ84s-1tT-x2oz35XhqyQoLwVn6ghSvGfZL0WND1Esk_Xh1-ID0IY3fyLadT72K-C6oPPfl1f1h8WZOylAaEZBKh9rk2HDhhz0mUHftZy7iXESDJT0thnsaO6goAUkMGl9wBnPyi_v9O8DJ8WWQq8vspVCpNlm-6zCWnqQ1K7HTdHopiMYNd65JSaPGjnoWATIebzgIYE7aBvfhCLGBj8NgDOTZX039bHwW3BtV2P8RN_T77jxOyxhKpAwp6qvOMX1HJGkEqxdDr1s3fXQpu0NMV7HXZd1OJYl_AoCqm7OnGr8HwdKpvIne-N_ZlL961R8VBzsw2mTZpG8hTW5dk-1Sa5ghOWfXrVHTfUBPdbeaRdsZZXVJGpodShSfc7zWBKeAAzbFRVmf1atZaviUdJktkQ_c3blYS1PMeI3MrTbNqxevRJ8Pm1fgER0rr2OHO_CklcmQ0pyjb4IVr5elTxcLN8"
     }
 }
