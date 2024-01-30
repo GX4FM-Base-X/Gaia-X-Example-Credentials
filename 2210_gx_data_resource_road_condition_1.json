@@ -9,7 +9,7 @@
     ],
     "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_1.json",
     "issuer": "did:web:delta-dao.com",
-    "issuanceDate": "2024-01-28T11:55:49.318Z",
+    "issuanceDate": "2024-01-30T08:32:16.345Z",
     "credentialSubject": {
         "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_1.json",
         "type": "gx:DataResource",
@@ -20,17 +20,17 @@
         "gx:license": "MIT",
         "gx:copyrightOwnedBy": "Jay Gala",
         "gx:producedBy": {
-            "@id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
         },
         "gx:exposedThrough": {
-            "@id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json"
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json"
         }
     },
     "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2024-01-28T11:55:49.348Z",
+        "created": "2024-01-30T08:32:16.384Z",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UmGihg62lhIO3oYU8HweyUxuziSTPjFsKgaKusB4uzLCHPTVSbcCUVO6bj1YdhHHQqDDM2iAGRQfy_aV-3kC1bsMKrNZDNBkyYqys5gFkZwfWcFO_X_YR1cb0OhmMt2adU0tkypmordfBRolKgZkQGhV1aOk3VMonEwQF0yy_HG2MXZL2z1U5N1etd7EoOFWsF3K0Y4l4VsOiU2w6alw6MhbhVanfTPx8viKGYNcJDmPUhJBt-k_u6e_a1LPr0hxwwGJOXwvgej5SZWD7GbVwYrA2HTGGoTx7AjzLj8PKVOQlLjj6bkMi4fzLtVWp-K7op1566GqPtuWzgmGsor7sTwJMwC0H13O6ThEI5P8xNw4k3rjOnlHnKvnKRht-WLYt5w-kt3qkQ8MVFiIb66PQxDjN_4h-KcKCC2O8h4qpv1XGS-sttEcW-Bga5A4zDY0dGdbmrkmxyoISjHWpK4Y1tIox4doilVyCCKdjNasTl-gP2eXfhs07IDw4Vz0bmw8f1TNnc0cyVm40qopAUnhBIjxeju6fzbtyyzujvRFWzNy0-aBPTbdYbNS8S2iGFGglkUIwUqCSsx2y1A1rTfGUKsd9TYgKlXCNi9U-rhZXeP3x9I_pFQn2zuWxBoR24xQw02nmCK3MHop5gdvvDYcgn-5d8njMI3EURte6Urhh0c"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..blQ5VzN11qVheecNCO8MPWKZGWiwNThE0_gH_Mpv-7QBLawsypAQCUEbnd6a3wP14W_RU1MT261TvjjmMwVCeWzsOmdEoxZE3mQn0xVHI6BfkyE9bPDXe9-2EEfTOY7jQ2SlXh4exU97mYOSOF85vdjxppJu4lDAsuNcGmE1cVrfyjziMNuyRaxFYKOxi0MuSof2i299bXYR7laqcSaF651LD7K9mwWi8qWAgzOpWEfS1X3T3w7EJqqDLIAMJjlezdvkgdxRvaNSsMnD7EH8jMX-e9kUfuWgMV8vc-QlY2yzBORXMPn2T5yXEplXSNSmKkEx-gpwYK35W-RM4wLDYDFjbYgBgwqxffYtKTUVpmUxeY6mzbjKaHb3vaW-pOlKqB5575-_3-DQ_auOx7dJDy-mLbdiUcgrJydMTYy62nM2V4iyLnROVusZpmPWLmSTjJXAvuFgJyeNM4vk-iOFzXE2RS2RlxrHsiNhyAtSEmajyf5B__aqhtJ3DwR85HOIoD6JK6ViR9zR3ZOGN39g3EdVBgsE-NeV-cO1FnAQ1pnt_wneDhtCPXUBqV2H609eVZjSjbgg1zolrE4b6r1QqJAkJMCsMBdUbABq6qZeLkYDqlPTjVtbZ3iANX_0WlpeznqIflLuN7K4WzANmqzqgVI2Qmdq3HqxfDmcyWIRHns"
     }
 }
