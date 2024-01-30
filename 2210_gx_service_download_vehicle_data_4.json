@@ -1,0 +1,508 @@
+{
+    "@context": "https://www.w3.org/2018/credentials/v1",
+    "type": "VerifiablePresentation",
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": "VerifiableCredential",
+            "id": "did:op:53fb28c8db2c746c2bf0c87f0d08e2958308078a59bf0e7101f72c5bf9d6902d",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2024-01-30T13:25:48.699Z",
+            "credentialSubject": {
+                "type": "gx:ServiceOffering",
+                "id": "did:op:53fb28c8db2c746c2bf0c87f0d08e2958308078a59bf0e7101f72c5bf9d6902d",
+                "gx:serviceOffering:credentialURL": "https://www.delta-dao.com/.well-known/2210_gx_service_download_vehicle_data_4.json",
+                "gx:providedBy": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+                },
+                "gx:maintainedBy": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+                },
+                "gx:serviceOffering:name": "Vehicle Data Collection Images for Download 04",
+                "gx:serviceOffering:description": "This Data Service provides Vehicle Data Collection Images for Image Annotation and Road Condition Monitoring.",
+                "gx:serviceOffering:serviceModel": "subscription",
+                "gx:serviceOffering:type": "data",
+                "gx:serviceOffering:ownerBlockchainAccountId": "0x28080F654eED6CC00e8b16F4841E92CD0c2C0778",
+                "gx:serviceOffering:settlement": [
+                    {
+                        "gx:serviceOffering:currencyName": "EUROe",
+                        "gx:serviceOffering:currencyTokenAddress": "0xe974c4894996e012399dedbda0be7314a73bbff1",
+                        "gx:serviceOffering:currencyAmount": "15"
+                    }
+                ],
+                "gx:serviceOffering:subscriptionDuration": "86400",
+                "gx:policy": "download",
+                "gx:serviceOffering:webAddress": "https://portal.moveid.eu/asset/did:op:53fb28c8db2c746c2bf0c87f0d08e2958308078a59bf0e7101f72c5bf9d6902d",
+                "gx:serviceOffering:serviceEndpoint": "https://provider.v4.genx.delta-dao.com",
+                "gx:serviceOffering:accessTokenAddress": "0xE1f12C0e5B3972f39582C60c95cbCc2C3C4b4078",
+                "gx:termsAndConditions": {
+                    "gx:URL": "https://portal.moveid.eu/terms",
+                    "gx:hash": "c7f642b1c32caf3cc2a23f40cc529c424d0c91afd9bb28ac1e0da99a4fac821c5354d460b3df6688d994a4ac15af47d9712dc4a5ba730a673951612019c6daf2"
+                },
+                "gx:serviceOffering:gdpr": [
+                    {
+                        "gx:serviceOffering:imprint": "https://www.delta-dao.com/imprint/"
+                    },
+                    {
+                        "gx:serviceOffering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+                    }
+                ],
+                "gx:serviceOffering:dataProtectionRegime": [
+                    "GDPR2016"
+                ],
+                "gx:dataAccountExport": {
+                    "gx:requestType": "email",
+                    "gx:accessType": "digital",
+                    "gx:formatType": "mime/png"
+                },
+                "gx:aggregationOf": [
+                    {
+                        "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_4.json"
+                    },
+                    {
+                        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json"
+                    }
+                ],
+                "gx:dependsOn": [
+                    {
+                        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json"
+                    }
+                ]
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-01-30T13:25:48.740Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..YjIVTUmrEWRWDVDT6a36BpebaA3J04QZz4imP5o5nIb_A__YDzkh9_p9E46AjRKgemHYeRh8iEsdVTwr-u-P3faDvxlIfQntG1rvCgLtoDr_KEHxo5t4gVuvAvowXm0KD5HQWCrsAyJFAKO1Vbv-DTBURL7-72sClETPN1zLtJ9O-C7TZojKTgjuZ6dE0iba6X3wah-VMu-0EyIHH7-5Ll4vyBvrlN20Pg2Eb0buw7Q-zOHWLm1yAc058hhheqLNSWb1vak4Liti5xVQnc4Eo-pW3BnWH1eeXPLijekYQB89lMWV0QAwgdM1Eck32x0WsNF7Mcy-6cJrHm1JMrM-UaJ2hyFUlHLAmWZ2QVEda5hwokP_baNLsOssAJ0VUOmUysPGQ3a12r-jP65RZJ_MB5xjR2Ol0oqzdriIgKGe65ywgxH4KZiwWjxJnBeRTKF1AhNnmzHgIADD7ovxKm1hCElglLa2_z77rNir230jJP8BBO9nyo0Ngr87ykr-D-Rc42QJeuHdX8s2PSeq2pmFjAMLatperhmHfDNlcovIqH9xtaUclFTQUGEyVm_d2WKQ9GNSik-uM9QmhIxw0k4lRI3T4ymVrIwzSjwGAIQN-EBkEcZjbRHf-HHLctrh0d6Zm1rIbt0yuWYoWtOS70eVTyq-9VrvwrSGkZvcgZs0nTE"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_4.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2024-01-30T12:48:44.238Z",
+            "credentialSubject": {
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_4.json",
+                "type": "gx:DataResource",
+                "gx:name": "Vehicle Data 4",
+                "gx:description": "Contains road condition data. 10 JPG images with 720px resolution in one ZIP archive.",
+                "gx:containsPII": false,
+                "gx:policy": "default: allow",
+                "gx:license": "MIT",
+                "gx:copyrightOwnedBy": "Jay Gala",
+                "gx:producedBy": {
+                    "@id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+                },
+                "gx:exposedThrough": {
+                    "@id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json"
+                }
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-01-30T12:48:44.271Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dpFEsFZmLeGfm2FLHMK8lGl32CA_Ne73hU2dvmBG63XcxPo_QcIrppX3C6aa_pADJiKffDKOPYhdH8VRRfDHvokGGcr5tmdOnw-C2oXNgi2kQ5fuyubpdIKqIzvjmADUQJDusSPc0D721ellTbJD92qOJlHn1IdSxUNJzGGgwWqiXPcZBYa4AztRnuxAgEu_Gcgz-7MaxSpHol9tHPjDPiP3Ur9a5CV-M3aozuZAUjKZRWDB6IAiTx1HIexE42IwIfcHBqQHIAb7IrHxPuCxZwHizMSfpKZWn392BLO_XFoi4Wq78Vud664sGG-Tu_7bpmrs1ilhdUx2kJC9fqegkM6OwaRhvb0cndsqjFVeyDpNZeNn7VzxEDcro2QFogcfNok7WcH_HleGDZVrxonXjHMA0rYssbl3L74JtOWNRWKTkMq3WleK-VUV8idfXfORbBYtLoNpTuXi5limxHszSZi98qyKMkOW62E31q6VLsEf0Scd0V91DcXein7uE89w2hXmotAs3sxM7HsHW5kMRVZCMNMHyp0X6R2TeNNky1-YxQ9IGk782AaYhDOwPwg3MtqPhFUifnQSmN7qxAfsTeYNKW1g2UxWXbHkPZL-tShglzLpjfoYL6oeyH6HxVTRI6HVmrd7ST7IM_orL6cWVT1hwFFtSuHCW55lTvhiGn4"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": "VerifiableCredential",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2024-01-30T07:35:06.649Z",
+            "credentialSubject": {
+                "type": "gx:ServiceOffering",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json",
+                "gx:serviceOffering:credentialURL": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json",
+                "gx:providedBy": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+                },
+                "gx:maintainedBy": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+                },
+                "gx:serviceOffering:name": "Ocean Provider Connector and Access Controller",
+                "gx:serviceOffering:description": "The Ocean Provider connects digital services to the ecosystem, acts as access controller and proxy.",
+                "gx:serviceOffering:serviceModel": "subscription",
+                "gx:policy": "free API access",
+                "gx:serviceOffering:webAddress": "https://provider.v4.genx.delta-dao.com/",
+                "gx:serviceOffering:serviceEndpoint": "https://provider.v4.genx.delta-dao.com",
+                "gx:termsAndConditions": {
+                    "gx:URL": "https://portal.moveid.eu/terms",
+                    "gx:hash": "c7f642b1c32caf3cc2a23f40cc529c424d0c91afd9bb28ac1e0da99a4fac821c5354d460b3df6688d994a4ac15af47d9712dc4a5ba730a673951612019c6daf2"
+                },
+                "gx:serviceOffering:gdpr": [
+                    {
+                        "gx:serviceOffering:imprint": "https://www.delta-dao.com/imprint/"
+                    },
+                    {
+                        "gx:serviceOffering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+                    }
+                ],
+                "gx:serviceOffering:dataProtectionRegime": [
+                    "GDPR2016"
+                ],
+                "gx:dataAccountExport": {
+                    "gx:requestType": "email",
+                    "gx:accessType": "digital",
+                    "gx:formatType": "mime/png"
+                }
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-01-30T07:35:06.689Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Fey8_zUnAn4DYN2DBYCWkZ-6CDV3bYcKZ1GA4dOgo9e4FMqpWDAVMkUGu3w394z8CmmhdD0xVyk8wHok47huPal4dvLDQb7myhmspP6zfJa9C7lgGqhUSlPBnbxkRITXhEFNioUrehVz4Co2UBYkVbM9FgAq0qlq5Z3BV36EHbNLLpynd63WKZJfs7LOp0AfA9jBbxt8pXAFxbCAKyn2c5byv-HmNHK3MAAsiiu4DULo6_M7P_VPRd5AQYR2TeQQCT35BkS_pKnBIhyGSJpLN1tvX5rVxEhpYQP7m0QeUCZayiLyTR1CdMIimZdVWlZfcuLFAcBB447jIMFs1oL2c8D3j1AEnsl680HQsSea_eW5rO4GnD_0uTLj3HJE6r29uN2UTM2_hlDjScFZxGsC5cyKzpXyLt7UBEdZg5KGcqo4xtZg2HA0bXvEmmKA2h-Zw0QPFKT22x-2KSIF205esWbLz7KohklCTke0L6BEUCUecf8QH0LrJJkzcj3V7IYyqh6E5EMsHNhX--pIEkMbbhbH41ciwzOt_4xVsYOoJ2QuPQYv_nABNL12YbRUMasFI8FupIR5kjjjURiJWsl4DjXxebrG3Li8YdN1f9xDQPIzk5gOH5T-lvMQDNuykJxdK3G6LbjIb9DgkGX_4_GTQxD8jP3dYmup-pii8EsyUCM"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2024-01-30T07:38:40.574Z",
+            "credentialSubject": {
+                "type": "gx:ServiceAccessPoint",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json",
+                "gx:host": "https://provider.v4.genx.delta-dao.com/",
+                "gx:port": "443",
+                "gx:protocol": "https",
+                "gx:version": "2.1.3",
+                "gx:openAPI": "https://provider.v4.genx.delta-dao.com/",
+                "gx:documentation": "https://docs.oceanprotocol.com/developers/provider"
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-01-30T07:38:40.599Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qqBRCoAos8wel6_rgsko5qDJwa4382jixbUUrKdzocQVDRT8R0nZXI_reOuH8LRdoZf6FNfLrIEenxa5WFVdPT0kFEvdfprgwHaFYKx4JPGvTW01RIZ_aZ0UJS1-B9yg73DQbormaDiwXXE-uwvcgnsKV9U1EcJLOpWYDIr_5M--W5WgUJYPvFy74wXLNd0sgGtbF9UymjnAJ-MjzMwJ84s-1tT-x2oz35XhqyQoLwVn6ghSvGfZL0WND1Esk_Xh1-ID0IY3fyLadT72K-C6oPPfl1f1h8WZOylAaEZBKh9rk2HDhhz0mUHftZy7iXESDJT0thnsaO6goAUkMGl9wBnPyi_v9O8DJ8WWQq8vspVCpNlm-6zCWnqQ1K7HTdHopiMYNd65JSaPGjnoWATIebzgIYE7aBvfhCLGBj8NgDOTZX039bHwW3BtV2P8RN_T77jxOyxhKpAwp6qvOMX1HJGkEqxdDr1s3fXQpu0NMV7HXZd1OJYl_AoCqm7OnGr8HwdKpvIne-N_ZlL961R8VBzsw2mTZpG8hTW5dk-1Sa5ghOWfXrVHTfUBPdbeaRdsZZXVJGpodShSfc7zWBKeAAzbFRVmf1atZaviUdJktkQ_c3blYS1PMeI3MrTbNqxevRJ8Pm1fgER0rr2OHO_CklcmQ0pyjb4IVr5elTxcLN8"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2023-07-25T11:33:14.113Z",
+            "credentialSubject": {
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json",
+                "type": "gx:LegalParticipant",
+                "gx:name": "deltaDAO",
+                "gx:legalName": "deltaDAO AG",
+                "gx:legalRegistrationNumber": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber.json"
+                },
+                "gx:headquarterAddress": {
+                    "gx:countrySubdivisionCode": "DE-HH",
+                    "gx:addressCountryCode": "DE",
+                    "gx:streetAddress": "Katharinenstraße 30a",
+                    "gx:postalCode": "20457",
+                    "gx:locality": "Hamburg"
+                },
+                "gx:legalAddress": {
+                    "gx:countrySubdivisionCode": "DE-HH",
+                    "gx:addressCountryCode": "DE",
+                    "gx:streetAddress": "Katharinenstraße 30a",
+                    "gx:postalCode": "20457",
+                    "gx:locality": "Hamburg"
+                },
+                "gx:website": "https://www.delta-dao.com",
+                "gx:blockchainAccountId": [
+                    {
+                        "gx:blockchainId": "137",
+                        "gx:blockchainName": "Polygon Mainnet",
+                        "gx:blockchainAccountId": "0xf8A493af0e72C2C62651Bf7b7d1a006806Fb646f"
+                    },
+                    {
+                        "gx:blockchainId": "137",
+                        "gx:blockchainName": "Polygon Mainnet",
+                        "gx:blockchainAccountId": "0xf5b1E6f9a566E20de35d0C240D47F9cc08f33c0F"
+                    },
+                    {
+                        "gx:blockchainId": "137",
+                        "gx:blockchainName": "Polygon Mainnet",
+                        "gx:blockchainAccountId": "0x50499814AE402563b5c34F6BD2F5C829A7693964"
+                    },
+                    {
+                        "gx:blockchainId": "137",
+                        "gx:blockchainName": "Polygon Mainnet",
+                        "gx:blockchainAccountId": "0x04863f1E29Ea1aBF006fB1ecB129cAD892db0C90"
+                    },
+                    {
+                        "gx:blockchainId": "137",
+                        "gx:blockchainName": "Polygon Mainnet",
+                        "gx:blockchainAccountId": "0xdA9ED09a94B1A2315e22157d75fd0b0bfC63B6Cc"
+                    },
+                    {
+                        "gx:blockchainId": "137",
+                        "gx:blockchainName": "Polygon Mainnet",
+                        "gx:blockchainAccountId": "0x7AF6c5F0950A37b7C25da4367E9B56C03dE8234D"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xf8A493af0e72C2C62651Bf7b7d1a006806Fb646f"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xf5b1E6f9a566E20de35d0C240D47F9cc08f33c0F"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x50499814AE402563b5c34F6BD2F5C829A7693964"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x04863f1E29Ea1aBF006fB1ecB129cAD892db0C90"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xdA9ED09a94B1A2315e22157d75fd0b0bfC63B6Cc"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x7AF6c5F0950A37b7C25da4367E9B56C03dE8234D"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x628677D9A9d93a913182fa04893Da0ce4E6570Ee"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x8d4198E9af22863d4269dDA6a41eF2BfA187AbAc"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xC0E3B447c1e7B22769952E89389Ef2cD9B812Cc5"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xBf252dD5b3a31A50Db34113e12517b21D143AC52"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x0bd21cF4Da78f74c483a1109ac3A30794FBd556B"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x9c26685b6E8e2997d9aAf3f1a642f1b1b3dB9580"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xd0ea08826FA10eEaA3871a6AE680E5f15149F355"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x68C24FA5b2319C81b34f248d1f928601D2E5246B"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x2859d961a6dBa6e7d30b2d383Af468edb4E7F4f6"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xaBaf56FC1bB6b4FF9fA4378C3C8723d2B2444324"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x0a7B96885b28deDE4a6887CA1150E36edb385BeE"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xDF1c35c3d5178e9d98043b35a6737Bd861c191c9"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x01e66950353400E93AEe7F041C0303103E2ef5Ab"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x862E3fe199723945a38871dE4F736f1233589CE5"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xFDC7BEc0aED8a584577fd59CbF56805eE8c976B3"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x5f525cd29377DC2155C2AbCDaC0Ce45e630318b7"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x3a69B365769a9dAb67865Ca5530c4B1D5259bCb7"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x97870c129abc9877b66534e49f152585D6Ca3655"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x1Ad061ad839f82C05767dACd2B5ab384E72B45a5"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xFd4b5ae43f2aA446b02209098438890d3998cC9F"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x732BF4fA8E57200621b0e1acbe8855c238823016"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xa76Fa6837A6ffc9F123F2193717A5965c68B0cbA"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xFaeb57c16D5E9A9f06c8c5dB12796f5a432Eb7d6"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xb501FDaad0F0863C4c72f7EB9Abc23965DCa973d"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52"
+                    },
+                    {
+                        "gx:blockchainId": "100",
+                        "gx:blockchainName": "GEN-X",
+                        "gx:blockchainAccountId": "0x2859d961a6dBa6e7d30b2d383Af468edb4E7F4f6"
+                    }
+                ]
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-01-29T11:30:05.362Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AdTxni0YV-OX05jCGLzjE8iTnsf8dGw0a-X7V_uSmpj6ZbDLYuP42314ocZzxlQHrOnZovV5F-T5J1B4BND7d-4wTPiqQJJYFdZyoySaWHRMVfXuNtWrG83s-Bgjfes7Ahsbx1IPWJOiFx7vBOancDmtb6A_rfJdTIO5iVFkFcCE5U6_SnUbYkNWi5tb26Lt5SIxGCqerg_-cGNvVR-MKYHGgSmEhh0SR8hKyflS9J1mb1hPj7hyKwGjwnKOf-hvQRI46nbYgeLDJQimXzmyPWpN1hIYLkDLfpGiGx4vosPW1A3YhMKV-fbGhhtAvj-Q4wgj8VHtawrlqETtknLKqQQ03NExvyueOr2vFKI4yYazjeNhgpSeRbLxltSbr4P6tixo3WbXf7I7Yfv1iJol3pbLMc1O41U3-iApZ-xO9Y_4mALMytI4vbirqOAgW4j3uahfaTEAI8-Xx29WYZNRSnQjPCzjO-thb0-3CEzDSJJEcIZCoX9Rixj23Twxb4RU6y8DgALZcRd_aMbJJPZB7jLVzImDOecNaaqQE1XZJN5XyRY05bvqFoNbthIxDVMRWWlkXL51zjEXE__Ce0LFGyOUmUtu5vSY2hK-l2hiiFL96obP61xLCBHdOrp9awHFDeXFG66Pax4fyYBFyolLSMdGUC1_X3VOpNZPIOG57uE"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber.json",
+            "issuer": "did:web:gx-notary.gxdch.dih.telekom.com:v1",
+            "issuanceDate": "2024-01-29T11:31:52.199Z",
+            "credentialSubject": {
+                "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+                "type": "gx:legalRegistrationNumber",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber.json",
+                "gx:vatID": "DE346013532",
+                "gx:vatID-countryCode": "DE"
+            },
+            "evidence": [
+                {
+                    "gx:evidenceURL": "https://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+                    "gx:executionDate": "2024-01-29T11:31:52.199Z",
+                    "gx:evidenceOf": "gx:vatID"
+                }
+            ],
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-01-29T11:31:52.215Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:gx-notary.gxdch.dih.telekom.com:v1#X509-JWK2020",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..VNxe5wUJdK8jM5oK5ci1KFF-XjHoareeohlmbdH8q97iaiVJ3bQCkHXlh3I_uFuTYFGPrd9JJ8bd_QS0reAk9ByF_Sbgr_3SKmEeOleaLDjqgEiOPM_ACCS9Grz-YIAi1jBmdZrCOIQ-7JELS8NaSLysl2pJYlBFQg5zHfQJ6DVGBtaG6TNCvBcPCGZXmKtzb00EZaeAPctqVI_cTw8NihI4BqZ_bTilj8__wwWp_6bzodq7BfkBENm1NuYIN4iGrubZOJa_pf6LPUcGB4RRb794UA55RTTWKhuqnNBDe1neKIBocma2JtMV2uRTaDy0G4_IYuSW_D345-goxuaNwaqOtKYE2lVCCz5pphNeUEclEycLHxX8ZxG3bvEFNgxmNc44C48igyQkIZLZAyoS5XYwEzKXWWTb2MAP8UGkK7Wjt4_Sdl_0XBHo3vL2q183EN1hSyur7Db873pBe6RDgHqPzLa9jgMyJwiRbY-XQJVq8jw7X0v4rwCKT8wDQjibEZ0sMz9HoVCl3EaPAn-px6HLNA8VE4Rs1ibTOXak9VgHfYimsSAuXBH14lD90fcC-WMK3DOofEILBrzC4vfqi5xucSda8EaZnDejAmw6cvXMQyd24XXw8oL_aLSRPpTGVEl1YKj8_L7wB3glAlK1i8H0uX7xq0mPRwnCLP_sCGY"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": "VerifiableCredential",
+            "issuanceDate": "2023-09-16T17:36:24.084Z",
+            "credentialSubject": {
+                "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+                "type": "gx:GaiaXTermsAndConditions",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json"
+            },
+            "issuer": "did:web:delta-dao.com",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json",
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2023-09-16T17:36:57.993Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GJldT8vM8-EAZ8X1HulGiSShkdbvEJzt_1Lmz6myIH06_gfAnQBkFG6yAnCiSycZHFadhsowCAXz8Iw_Qgi_FukCqBwO6OOAOlVhMBBucYhkRHUrhYucCsR7NklYBzbgcTjlzUzz-7wOoszoLQY1uxMMIqWQMbaKoiyMy0okuH80wwTQx4XtG9-R4geMBR80soZoRc_yEolCEDvZ7IAVwDh4VrdmMkL4pxKqSiNTpJDaxQp9LqeuaBTdiMb275JYMYCjU0b934zkzEcLOu2-8GgqthDOORgrDQ3WSkov6akQtSzGCxwEmjM3rNa46NLMYTUcS4Igr7fXSzzSPb_8Oq4CGRoVM6M4Huie3FtcxA267vl0oI37FR8DxQ0Y0GbF_YOTJr652hopcf37jvAuaPdACzhFUMIld6OxeKpj_2W9YPYUgohpBw3WhDKMJ5l4Lb3TZtcLijUsuyGz2JklKUwlNudV0ildsVw2oUTuSqtjkugMJkfKIwBhiYSj1zXEhbIyfK28UUkv-mEQ-TqdsOJFCi2U_PTiRRmv6Dpz3OQe0ED6G2ffZI1CLJD8ckPNkr853Urh8BI388nHUIknQ1jNXXuYzUOf4BqWCCkCW6_ZfSurkI2y-ZB_5zHiXEiMFfr1aC6uxHa5ja_lcbhUnY8U0oJhvB6kjRKc0JFrs1w"
+            }
+        }
+    ]
+}
