@@ -11,7 +11,7 @@
             "type": "VerifiableCredential",
             "id": "did:op:ba45e2d082bedfb60069da924f3cec0c88c7b8a302d23d03e81d59006f26523c",
             "issuer": "did:web:delta-dao.com",
-            "issuanceDate": "2024-01-29T11:29:18.510Z",
+            "issuanceDate": "2024-01-30T07:41:03.759Z",
             "credentialSubject": {
                 "type": "gx:ServiceOffering",
                 "id": "did:op:ba45e2d082bedfb60069da924f3cec0c88c7b8a302d23d03e81d59006f26523c",
@@ -61,42 +61,109 @@
                 },
                 "gx:aggregationOf": [
                     {
-                        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json"
+                        "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_1.json"
                     },
                     {
-                        "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_1.json"
+                        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json"
                     }
                 ],
                 "gx:dependsOn": [
                     {
-                        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json"
-                    },
-                    {
-                        "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_1.json"
-                    },
-                    {
-                        "id": "https://www.delta-dao.com/.well-known/2210_gx_instantiated_virtual_resource_provider_1.json"
-                    },
-                    {
-                        "id": "https://www.delta-dao.com/.well-known/2210_gx_instantiated_virtual_resource_pontus_x_catalogue.json"
-                    },
-                    {
-                        "id": "https://www.delta-dao.com/.well-known/2210_gx_instantiated_virtual_resource_pontus_x_network.json"
-                    },
-                    {
-                        "id": "https://www.delta-dao.com/.well-known/2210_gx_instantiated_virtual_resource_pontus_x_contracting.json"
-                    },
-                    {
-                        "id": "https://www.delta-dao.com/.well-known/2210_gx_instantiated_virtual_resource_pontus_x_logging.json"
+                        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json"
                     }
                 ]
             },
             "proof": {
                 "type": "JsonWebSignature2020",
-                "created": "2024-01-29T11:29:18.552Z",
+                "created": "2024-01-30T07:41:03.786Z",
                 "proofPurpose": "assertionMethod",
                 "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
-                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jP_i4AaYdSoqpSs6kymUALBaE1PbdXDpMRB0mkTtgBA33dTaSALW6R8QqueVcOqvaXsui7Fq2cmZgjoNrb9vF9lcFvPlUT6NO2jnby4LIMa-tyoVXNYJWL4mae5OunqXzmcM8iXyDhxd3eWBmgrHxDG62dSk4VxTIx72KieZk0PHk6DdlyA3o8SuhpPJeluP0mOOnnFzWVKxuTXpsf7_jnaLyBM4A4Kn8OhW61epxjWd2hvMNuKguJMGcy1oeeat-kQNLgeRL29Ux8eITmyWtGGKdcL-9eB4JKJjRJ6VYCo203C9IhtFI0M9WT8ct87munB2GkpSlS59i3jAQuzsFXHYYrulIsXMeGtoLzJUPWgghiTmyF-mWtu13RrLihA57xH87FTnVNLQokhWyEZUAvGrMKmi6G9qwHa1ujplRhx3Z_-4e2vtpO74SxDrDRhTnIkDkhluw6_WOzrF4f0gtDPi0D_yqO5RyTx245qjLFaxUkCszHV5KETbTkRc0yNqlWNDieaClN2kc2LGb64DquTqvBkzDVW64Ec1KxtYhdfXNfz8Skfr2RZDnAMoUFBqjsq0AAu793Uk35kiul4Sg8WAec6qF-e0eZ_bDUioYhx7HzI6CQE6JpQsAN5_zti7x4BaVJ9xm9X24Q-wRYOjbyQvqms3dLH9ILZimD6AM3s"
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..stR3dSfi8UG_XFrdzIRqHOzy7fKpoSkzhzVX8SeMHGo8iXc34GN4KSaANrmvi6wDuH2w-Bqp8x1fgSbP6PJVhf6LfGmap5Yy7SBj_UU4iNogn7jl9nxH3V1M-qvEGTuKWCUM-iaEaX_8xIg8sXhHa-y7_kLfNqDKKT7JLb9Q4arMpE4spFWC8t91P39KYKNANjls-mbn7qnCq8Uz2yLhsdfNl1wyrOeYNUmREpXT_h-zhpdQAPSEExLP7S-AnKD35ZGB7V2zbS6gEYeNRvyCCU1ttE8FplMM2TmtI4HHfBJBHu1A3oIFAJudVFYMSdfyqQMR5mRyPQXYKAJ3iuU6EkvkKdsyaKgTNUNdh3mhhByv9K8-6PW_o1KBK-JnIQMSh1EdFqUkVN2Q9MEMKEKsTnMtK3NJrbbnxGDWDlq-G6EkmwsJje2HIpzP8S7Ji6lXwkvQ55iO4Se67Cj2b4P5I9qf-ma3synU9Q3RmWo0ZsscPH3wlNswSjl6bVKJPwWklvzFE4hBIAjW8zbyuSYG46CoD9BOFOKgPsIlsKOO93jnGPF85hatrMK4d6_WVbXUSw6PIOk2mj37awLsgEmaD77oQTW7FAJUNxkO22Op4MYEw4STpU5n2TW1Xg60yxI2T3pn0XJuBbMCc5UE32kMPSiWkZPzvIpneMyMuT-MLvw"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": "VerifiableCredential",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2024-01-30T07:35:06.649Z",
+            "credentialSubject": {
+                "type": "gx:ServiceOffering",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json",
+                "gx:serviceOffering:credentialURL": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_1.json",
+                "gx:providedBy": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+                },
+                "gx:maintainedBy": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+                },
+                "gx:serviceOffering:name": "Ocean Provider Connector and Access Controller",
+                "gx:serviceOffering:description": "The Ocean Provider connects digital services to the ecosystem, acts as access controller and proxy.",
+                "gx:serviceOffering:serviceModel": "subscription",
+                "gx:policy": "free API access",
+                "gx:serviceOffering:webAddress": "https://provider.v4.genx.delta-dao.com/",
+                "gx:serviceOffering:serviceEndpoint": "https://provider.v4.genx.delta-dao.com",
+                "gx:termsAndConditions": {
+                    "gx:URL": "https://portal.moveid.eu/terms",
+                    "gx:hash": "c7f642b1c32caf3cc2a23f40cc529c424d0c91afd9bb28ac1e0da99a4fac821c5354d460b3df6688d994a4ac15af47d9712dc4a5ba730a673951612019c6daf2"
+                },
+                "gx:serviceOffering:gdpr": [
+                    {
+                        "gx:serviceOffering:imprint": "https://www.delta-dao.com/imprint/"
+                    },
+                    {
+                        "gx:serviceOffering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+                    }
+                ],
+                "gx:serviceOffering:dataProtectionRegime": [
+                    "GDPR2016"
+                ],
+                "gx:dataAccountExport": {
+                    "gx:requestType": "email",
+                    "gx:accessType": "digital",
+                    "gx:formatType": "mime/png"
+                }
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-01-30T07:35:06.689Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Fey8_zUnAn4DYN2DBYCWkZ-6CDV3bYcKZ1GA4dOgo9e4FMqpWDAVMkUGu3w394z8CmmhdD0xVyk8wHok47huPal4dvLDQb7myhmspP6zfJa9C7lgGqhUSlPBnbxkRITXhEFNioUrehVz4Co2UBYkVbM9FgAq0qlq5Z3BV36EHbNLLpynd63WKZJfs7LOp0AfA9jBbxt8pXAFxbCAKyn2c5byv-HmNHK3MAAsiiu4DULo6_M7P_VPRd5AQYR2TeQQCT35BkS_pKnBIhyGSJpLN1tvX5rVxEhpYQP7m0QeUCZayiLyTR1CdMIimZdVWlZfcuLFAcBB447jIMFs1oL2c8D3j1AEnsl680HQsSea_eW5rO4GnD_0uTLj3HJE6r29uN2UTM2_hlDjScFZxGsC5cyKzpXyLt7UBEdZg5KGcqo4xtZg2HA0bXvEmmKA2h-Zw0QPFKT22x-2KSIF205esWbLz7KohklCTke0L6BEUCUecf8QH0LrJJkzcj3V7IYyqh6E5EMsHNhX--pIEkMbbhbH41ciwzOt_4xVsYOoJ2QuPQYv_nABNL12YbRUMasFI8FupIR5kjjjURiJWsl4DjXxebrG3Li8YdN1f9xDQPIzk5gOH5T-lvMQDNuykJxdK3G6LbjIb9DgkGX_4_GTQxD8jP3dYmup-pii8EsyUCM"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2024-01-30T07:38:40.574Z",
+            "credentialSubject": {
+                "type": "gx:ServiceAccessPoint",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_service_access_point_provider_1.json",
+                "gx:host": "https://provider.v4.genx.delta-dao.com/",
+                "gx:port": "443",
+                "gx:protocol": "https",
+                "gx:version": "2.1.3",
+                "gx:openAPI": "https://provider.v4.genx.delta-dao.com/",
+                "gx:documentation": "https://docs.oceanprotocol.com/developers/provider"
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-01-30T07:38:40.599Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qqBRCoAos8wel6_rgsko5qDJwa4382jixbUUrKdzocQVDRT8R0nZXI_reOuH8LRdoZf6FNfLrIEenxa5WFVdPT0kFEvdfprgwHaFYKx4JPGvTW01RIZ_aZ0UJS1-B9yg73DQbormaDiwXXE-uwvcgnsKV9U1EcJLOpWYDIr_5M--W5WgUJYPvFy74wXLNd0sgGtbF9UymjnAJ-MjzMwJ84s-1tT-x2oz35XhqyQoLwVn6ghSvGfZL0WND1Esk_Xh1-ID0IY3fyLadT72K-C6oPPfl1f1h8WZOylAaEZBKh9rk2HDhhz0mUHftZy7iXESDJT0thnsaO6goAUkMGl9wBnPyi_v9O8DJ8WWQq8vspVCpNlm-6zCWnqQ1K7HTdHopiMYNd65JSaPGjnoWATIebzgIYE7aBvfhCLGBj8NgDOTZX039bHwW3BtV2P8RN_T77jxOyxhKpAwp6qvOMX1HJGkEqxdDr1s3fXQpu0NMV7HXZd1OJYl_AoCqm7OnGr8HwdKpvIne-N_ZlL961R8VBzsw2mTZpG8hTW5dk-1Sa5ghOWfXrVHTfUBPdbeaRdsZZXVJGpodShSfc7zWBKeAAzbFRVmf1atZaviUdJktkQ_c3blYS1PMeI3MrTbNqxevRJ8Pm1fgER0rr2OHO_CklcmQ0pyjb4IVr5elTxcLN8"
             }
         },
         {
