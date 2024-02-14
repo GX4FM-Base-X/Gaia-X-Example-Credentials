@@ -1,0 +1,47 @@
+{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/security/suites/jws-2020/v1",
+      "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+      "VerifiableCredential"
+    ],
+    "id": "https://wizard.lab.gaia-x.eu/api/credentials/2d37wbGvQzbAQ84yRouh2m2vBKkN8s5AfH9Q75HZRCUQmJW7yAVSNKzjJj6gcjE2mDNDUHCichXWdMH3S2c8AaDLm3kXmf5R8AUsjvz3FzAKF2dBppk7zsy16nFVk6yphNpJCSwnK2Y8bAfFtE8ed381rXg1Sq3sA2FwS38GyouoDoQoG8HyvNudPmk48fiZsegrW8dvTFYWBaXyyvAP1YhJkiVornAYwEnumXg2nyFyhBxobMckHkwrfqwrg1YmwXv55yiwjT8mtqFyef8NFo2fmUFKMeLdDJ3raEsJWpaCrsRP8xYbM6EyjT7gadkSrHvNPiFicd7z6axoVrGKoGYf86UEcBS3ywXmcGs6ZRey1h7CDvQcHMrf1XV4q7h4SnzbhEYea8enV9Pdk3S4DMRr89NrRa63ZFnqZyqSaU8My1LpyND1HVU3AFyGyzDMmQr8nWDh7gyr7uyEHkymUADPJFZiuvjFay8Ys4AfsnTM6ZYoEchT6Q33qYhuzAGR4cPd7myFQFsMUXVd5qZRVMidbsNXHddQTm8Ce3NnhMPyzWffKrwQwyNnDnpBQdCBxEuW34FDz1VQKwhnv6UvYhvGasYTaYtf22Y5ZFJ?uid=3ea8f71d-c6ce-4da9-8aef-1c959596fc9d",
+    "issuer": "did:web:compliance.lab.gaia-x.eu:main",
+    "issuanceDate": "2024-02-09T08:23:50.134Z",
+    "expirationDate": "2024-05-09T08:23:50.134Z",
+    "credentialSubject": [
+      {
+        "type": "gx:compliance",
+        "id": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json",
+        "gx:integrity": "sha256-d1663d327a0f1b7f80d3480bfe8f9149b749d6a9fdff40dd38fbdef04c07b390",
+        "gx:integrityNormalization": "RFC8785:JCS",
+        "gx:version": "22.10",
+        "gx:type": "gx:LegalParticipant"
+      },
+      {
+        "type": "gx:compliance",
+        "id": "https://participant.gxfs.gx4fm.org/.well-known/termsAndConditions.json",
+        "gx:integrity": "sha256-a4fa95946bf7479e73a04c5bdb2710a484b7acc4a36fe50febb9a4659e551ab4",
+        "gx:integrityNormalization": "RFC8785:JCS",
+        "gx:version": "22.10",
+        "gx:type": "gx:GaiaXTermsAndConditions"
+      },
+      {
+        "type": "gx:compliance",
+        "id": "https://participant.gxfs.gx4fm.org/.well-known/legalRegistrationNumber.json",
+        "gx:integrity": "sha256-5164171602f3f049332aaafa2290eda6f6cc2c21c8ffe03828fcb1971691a9dd",
+        "gx:integrityNormalization": "RFC8785:JCS",
+        "gx:version": "22.10",
+        "gx:type": "gx:legalRegistrationNumber"
+      }
+    ],
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2024-02-09T08:23:50.150Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HLaIoWVHz3Od71VmyR-tBJvnvspdBth0Fe09RmtElCH5LslekDjQhIA-4uRgFiPgj_SfwDclnFbtnAwwU2ba7svrKKNXme39exx_fe2uwN8wM6cTeR7nefxYZI8bbaRTs68LCoTfzvSv3RyBigJ14Q52HKk1N_0gpdeh558bIUSS_TeMS6XVxupslo511gf-yIhnhIybMFzY7X-3XQcG7ZAw4fwhI8mtA75qtSr_QoiXPauYWrHg3_WAj9lOog28xoUa3VjeLNWgJwcKjNQGNfic8T5ta8BKNETzqEspszAwhIo84E8DVTJrDSAFe5S5XitDPdvNlltdUzxLKgrJBg",
+      "verificationMethod": "did:web:compliance.lab.gaia-x.eu:main#X509-JWK2020"
+    }
+  }

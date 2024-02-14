@@ -1,0 +1,33 @@
+{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "type": [
+      "VerifiableCredential"
+    ],
+    "id": "https://participant.gxfs.gx4fm.org/.well-known/legalRegistrationNumber.json",
+    "issuer": "did:web:registrationnumber.notary.lab.gaia-x.eu:main",
+    "issuanceDate": "2024-02-09T08:23:01.598+00:00",
+    "credentialSubject": {
+      "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+      "id": "https://participant.gxfs.gx4fm.org/.well-known/legalRegistrationNumber.json",
+      "type": "gx:legalRegistrationNumber",
+      "gx:vatID": "DE129420400",
+      "gx:vatID-countryCode": "DE"
+    },
+    "evidence": [
+      {
+        "gx:evidenceOf": "VAT_ID",
+        "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+        "gx:executionDate": "2024-02-09T08:23:01.597+00:00"
+      }
+    ],
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2024-02-09T08:23:03.150+00:00",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:registrationnumber.notary.lab.gaia-x.eu:main#X509-JWK2020",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..T0j1z3QFlHt18FE9JmhoDogGdBPVbSacVXHlLluqbLVqElKLjiKq56YeyJ0G5c1HMu4NTkZlB_4QJqIMEmcpJA-QYR4vr2ZWawY9CcMoJ9LPxPfJAMs49RukkNUGhC99L4_9aItQvkRDSIDeNpW4Y8OdoM4wzqNDwcyWikWqEi2xHWL4hsWtaRtRV-D1z7rusTelc5n6XCG5nubEZoOSlF7GjfR9XDDv_zvs6oUvgSTKiW_5weS2kiTuZV5Pa_RNp9T0cC9mpNxSSbsCoO5rDBcz1kpyHYVoNLSd-Kn0ODgVN7KQLjBl8B4tD7wxpqxBl0XAi3lPwkfo_4WvUX-YFg"
+    }
+  }
