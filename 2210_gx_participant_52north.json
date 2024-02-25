@@ -13,7 +13,7 @@
             ],
             "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_52north.json",
             "issuer": "did:web:delta-dao.com",
-            "issuanceDate": "2024-02-25T21:27:28.151Z",
+            "issuanceDate": "2024-02-25T21:56:02.687Z",
             "credentialSubject": {
                 "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_52north.json",
                 "type": "gx:LegalParticipant",
@@ -23,14 +23,14 @@
                     "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_52north.json"
                 },
                 "gx:headquarterAddress": {
-                    "gx:countrySubdivisionCode": "DE-BY",
+                    "gx:countrySubdivisionCode": "DE-NW",
                     "gx:addressCountryCode": "DE",
                     "gx:streetAddress": "Martin-Luther-King-Weg 24",
                     "gx:postalCode": "48155",
                     "gx:locality": "Münster"
                 },
                 "gx:legalAddress": {
-                    "gx:countrySubdivisionCode": "DE-BY",
+                    "gx:countrySubdivisionCode": "DE-NW",
                     "gx:addressCountryCode": "DE",
                     "gx:streetAddress": "Martin-Luther-King-Weg 24",
                     "gx:postalCode": "48155",
@@ -43,10 +43,10 @@
             },
             "proof": {
                 "type": "JsonWebSignature2020",
-                "created": "2024-02-25T21:27:28.185Z",
+                "created": "2024-02-25T21:56:02.724Z",
                 "proofPurpose": "assertionMethod",
                 "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
-                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jdP3bl3dMl2hWVWgMGKZO021Aj7vthv8n75IY95w9EMVeXueQBUPvXMUk2OqsS8mqfPxHWZrKuYLV3nWsaOYjyklaQFzFNiMN4mZwOJJEYs5jyYCDk8i1qZxnjJDgk2eejS_rg5Bl18o-SVCOaaV6z5jcpottlZbQ929gdww1xZwPV7G77z3ur0k83g7DESCs9I122P32cUtR_QnJsdJZAKYSNGIuOKk3R2m7d921YmkIYX3FjhzTZGeXR6bI8SxIITD3EF3lFXao31q-XazDOO2ASOkUI-42u-wuLbbg0Tinuau6fXWIXikXAyGbvYs94QEJXKCDP6omCuOvZiV-7PQxjzrTsBLClS9GITOwDeUdgbSfAPfQywEru2UEv_6eBKzVTVRXD5VNAbKZr5Id9aS33oEnJaY5w1RmZxSKb2aBiG1XriI0O_1sDvu3FQPgqclPVPb18L41Z9d9DQEJC6x4axzHi_116za4I_L2P6HUNOOgFq8Rw0x9SuN9X1Z9lfymF1cbETGN9sV15eiXWh5G9uvh2zVq-W1i9RATSCKUWEnqz-1pZ8zDB1Fqfiha8-LT_seDb7UbQc7SK-9Somaj8rn1JN9bMMY2Y3ZcrU6gOlJbqc5wcXePe5e93SqqHhcJvzojIYuQDtT-AkPgqLRNOj-bnNfQWetMUgFIJg"
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JOyv6ZEJm4gFX3E5I3AMSpNkEV_HdMFMXrADdpxyyJDJ2OElYMGjfOsmnVCKVFuVuwNk9OMsMUEECn-f5SpJRdgFI0xWP72Fx-fgVTQlP1S3jXpxrLCnxamaJWohOGwSVp7UMsOx0F0tBkniroV57yjWC15G_2bNuOoonf_LG3rd7lzPN07djd49Uq4K2dvCO65xZi2ETmQ8015jPn1kJc_Wwo5ARni8NtXeZgyeUj6dhZihEN-mczE6H6gaMSfvct5fu_JWoS8OScVS4s5TEwR2KcGkE4neyFJdLPCTSwoyVr6FYeVEmAEaYca4ox33cSGOoz5YFD0u0J-V41L9RgdNHUsnWEIn3x6To0nAgvUzji-lPHfrE_z5DzwJsugiw7ni3Xrsl-fL5jQxThnaHMXmZPA6-sczim6bMtZ2qDfU3Y56bgHop17bujjqmqkvn9B-L2b3XgiF1pYPKZUwP2UE5xfCPDjjYnqWEaxlD1QtrzAFmFs0Vmm8i8ifBiEM_igTx47TXVJ4pUV5Hkink3VVwWjkl0Eep8Ii6SIjWO3UTVCcp1g7U7neyHvZvF3WCI-ijxXx1Adwx_zDuilXaA41KKc6iYeFxW07SVLlI4f5MAm1dK0Xu4G-cVRmn8rxyKuinSPWQQUNZAeNk-ePFxNJoV9iugvYrCDsc-Kcgps"
             }
         },
         {
