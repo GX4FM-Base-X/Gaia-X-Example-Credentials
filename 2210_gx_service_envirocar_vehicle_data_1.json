@@ -1,0 +1,175 @@
+{
+    "@context": "https://www.w3.org/2018/credentials/v1",
+    "type": "VerifiablePresentation",
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": "VerifiableCredential",
+            "id": "did:op:378ee4190de3403dd32506ee7bf97d39a891309caf913c11254b5f748cae7882",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2024-02-25T21:36:18.704Z",
+            "credentialSubject": {
+                "type": "gx:ServiceOffering",
+                "id": "did:op:378ee4190de3403dd32506ee7bf97d39a891309caf913c11254b5f748cae7882",
+                "gx:serviceOffering:credentialURL": "https://www.delta-dao.com/.well-known/2210_gx_service_envirocar_vehicle_data_1.json",
+                "gx:providedBy": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_52north.json"
+                },
+                "gx:maintainedBy": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_52north.json"
+                },
+                "gx:serviceOffering:name": "enviroCar ArcGIS service",
+                "gx:serviceOffering:description": "A Gaia-X sample service featuring an ArcGIS Rest Service for enviroCar for traffic monitoring and environmental data.",
+                "gx:serviceOffering:serviceModel": "subscription",
+                "gx:serviceOffering:type": "data",
+                "gx:serviceOffering:ownerBlockchainAccountId": "0x1f65110b63B6044f1E92543C09231842131798C7",
+                "gx:serviceOffering:settlement": [
+                    {
+                        "gx:serviceOffering:currencyName": "EUROe",
+                        "gx:serviceOffering:currencyTokenAddress": "0x8a4826071983655805bf4f29828577cd6b1ac0cb",
+                        "gx:serviceOffering:currencyAmount": "10"
+                    }
+                ],
+                "gx:serviceOffering:subscriptionDuration": "86400",
+                "gx:policy": "download",
+                "gx:serviceOffering:webAddress": "https://www.pontus-x.eu/asset/did:op:378ee4190de3403dd32506ee7bf97d39a891309caf913c11254b5f748cae7882",
+                "gx:serviceOffering:serviceEndpoint": "https://provider.dev.pontus-x.eu",
+                "gx:serviceOffering:accessTokenAddress": "0x85222CA4Cdd3980B2B35AAF9E2bC201d3Cc1A0e6",
+                "gx:termsAndConditions": {
+                    "gx:URL": "https://portal.moveid.eu/terms",
+                    "gx:hash": "c7f642b1c32caf3cc2a23f40cc529c424d0c91afd9bb28ac1e0da99a4fac821c5354d460b3df6688d994a4ac15af47d9712dc4a5ba730a673951612019c6daf2"
+                },
+                "gx:serviceOffering:gdpr": [
+                    {
+                        "gx:serviceOffering:imprint": "https://www.delta-dao.com/imprint/"
+                    },
+                    {
+                        "gx:serviceOffering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+                    }
+                ],
+                "gx:serviceOffering:dataProtectionRegime": [
+                    "GDPR2016"
+                ],
+                "gx:dataAccountExport": {
+                    "gx:requestType": "email",
+                    "gx:accessType": "digital",
+                    "gx:formatType": "mime/png"
+                }
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-02-25T21:36:18.740Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..m2D5_UIRzpnubkvHoCNbemRjBZgneqetZ7xCspWMcYQ0Sp9yYh7-JhdZ_AzdMJgGVB40sKQkavB7y2OC8ZieBV6a0H0HOCt8U7E4BfaKzha7YK2nORI2egNDDbw2_HM5rfY_07pNQ9ZlrXogObV1u0J5_a6CxL4HfvqY7KYr8jvg2g-0152f0bqZHA6YJU9N_4Rb0kGWLGqKaStOO1D7LRcUX3MavQnQhG_lpW8r6suG-XObCWBVRgn5PrZBEg_PdjsiGzJ4VNeSGJh0hzECjYroQsVBtgbbgK7zkRSky5IHysVj1eEOKl2R_jzSihar2yWyxlTTxBIcdCUcdFe7A3LWjF-jENF_WKjP3alQKdKWvG6t1czhwkfbg5mIVLeflrHOUFXzmNZUXkI6lIqAlYjwmcg1f0zfLcMSgAyfCqwhHp29-bVK0RXuNUbv44iWi4OU563t69TWKW_wnftO9eF1Dv0U1HWrFKbFDv9_SbdQeMh6LcwWgZ2TxjAPLVkX04O3x5ZUpOh7ggz3AOlN6kBF_7hJ5FyBXO8mOOHMpvWS-rKFEqlC4qDXX2I8Lr57cRp9EkofH_NSwr9pf0QMV9NCXcSpQWChOo8PjvDSVq_JEvYeF_AHgNcVAZ8-O5L3GsWoREvqbeIk16nd0PR2-46vage-jCK8ALqZiWuVauI"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_52north.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2024-02-25T21:27:28.151Z",
+            "credentialSubject": {
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_52north.json",
+                "type": "gx:LegalParticipant",
+                "gx:name": "52°North GmbH",
+                "gx:legalName": "52°North Spatial Information Research GmbH",
+                "gx:legalRegistrationNumber": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_52north.json"
+                },
+                "gx:headquarterAddress": {
+                    "gx:countrySubdivisionCode": "DE-BY",
+                    "gx:addressCountryCode": "DE",
+                    "gx:streetAddress": "Martin-Luther-King-Weg 24",
+                    "gx:postalCode": "48155",
+                    "gx:locality": "Münster"
+                },
+                "gx:legalAddress": {
+                    "gx:countrySubdivisionCode": "DE-BY",
+                    "gx:addressCountryCode": "DE",
+                    "gx:streetAddress": "Martin-Luther-King-Weg 24",
+                    "gx:postalCode": "48155",
+                    "gx:locality": "Münster"
+                },
+                "gx:website": "https://52north.org",
+                "gx:externallyOwnerAccountId": [
+                    "0x1f65110b63B6044f1E92543C09231842131798C7"
+                ]
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-02-25T21:27:28.185Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jdP3bl3dMl2hWVWgMGKZO021Aj7vthv8n75IY95w9EMVeXueQBUPvXMUk2OqsS8mqfPxHWZrKuYLV3nWsaOYjyklaQFzFNiMN4mZwOJJEYs5jyYCDk8i1qZxnjJDgk2eejS_rg5Bl18o-SVCOaaV6z5jcpottlZbQ929gdww1xZwPV7G77z3ur0k83g7DESCs9I122P32cUtR_QnJsdJZAKYSNGIuOKk3R2m7d921YmkIYX3FjhzTZGeXR6bI8SxIITD3EF3lFXao31q-XazDOO2ASOkUI-42u-wuLbbg0Tinuau6fXWIXikXAyGbvYs94QEJXKCDP6omCuOvZiV-7PQxjzrTsBLClS9GITOwDeUdgbSfAPfQywEru2UEv_6eBKzVTVRXD5VNAbKZr5Id9aS33oEnJaY5w1RmZxSKb2aBiG1XriI0O_1sDvu3FQPgqclPVPb18L41Z9d9DQEJC6x4axzHi_116za4I_L2P6HUNOOgFq8Rw0x9SuN9X1Z9lfymF1cbETGN9sV15eiXWh5G9uvh2zVq-W1i9RATSCKUWEnqz-1pZ8zDB1Fqfiha8-LT_seDb7UbQc7SK-9Somaj8rn1JN9bMMY2Y3ZcrU6gOlJbqc5wcXePe5e93SqqHhcJvzojIYuQDtT-AkPgqLRNOj-bnNfQWetMUgFIJg"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_52north.json",
+            "issuer": "did:web:gx-notary.gxdch.dih.telekom.com:v1",
+            "issuanceDate": "2024-02-25T21:30:26.426Z",
+            "credentialSubject": {
+                "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+                "type": "gx:legalRegistrationNumber",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_52north.json",
+                "gx:vatID": "DE253303206",
+                "gx:vatID-countryCode": "DE"
+            },
+            "evidence": [
+                {
+                    "gx:evidenceURL": "https://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+                    "gx:executionDate": "2024-02-25T21:30:26.426Z",
+                    "gx:evidenceOf": "gx:vatID"
+                }
+            ],
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2024-02-25T21:30:26.446Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:gx-notary.gxdch.dih.telekom.com:v1#X509-JWK2020",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Iw50jNYuhD2qM_WHrXBAp0XGhntQ_hWNEqCw3DxY6TEityNZfwhLCq09eMjYpJyRHb4nYZqauAk0JYPqIXxQr5zx_pXvmBWDfLS4TxsoM0MMqJRgcf3xdW5StwN3R02mS7sDsB-W56pH90oosftK3kzO6-dwccean-TB6Jlk1Fc7KoxJUECQGM6ybjT3QfJ7KyVRhrS8_y4ZKCxiFCHgYEBE5nZAOhp1_GL57B6x4qjHcM0XelCHt20hBQ1oy5q-ZQKuKvjm6lzygAhvSWDdN20VvVz_pMIV1TW4tKHlSNUSiVpQHBl_PvUd37zCWSFLz0al7ZgSu4iZAhNaybOPFEZEITY_evUGnP8L_Dk7rhmghRfHUqWG2KKX-jc6WEnZUMv3SUi0yp5-J4G72JIF7dEE9itEowvRYmcWU22GrL79a31ou8CDGALI-n7nZE6vB-XL5iytQo35LwzBmWSYTuPUC5kgEEDaJNDeWGXUw9CfiAKC29xQujvINACDmPwFNSSBo4YZc_jdPrpTBko-J0apX9kjv5SBo-rKU1UMDTlM1brf4aHHM1FWI9qVSSRCF9J-APn_V691AhPkKBHewN5qQyHU0ysCIQjCOy-poCQhxWdOVDb3wnlBMlPBXB5SxNS7eC-z66Qn8AHnI_wLmcnz9HRdL7FGi0aomQjaARc"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": "VerifiableCredential",
+            "issuanceDate": "2023-09-16T17:36:24.084Z",
+            "credentialSubject": {
+                "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+                "type": "gx:GaiaXTermsAndConditions",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json"
+            },
+            "issuer": "did:web:delta-dao.com",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json",
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2023-09-16T17:36:57.993Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GJldT8vM8-EAZ8X1HulGiSShkdbvEJzt_1Lmz6myIH06_gfAnQBkFG6yAnCiSycZHFadhsowCAXz8Iw_Qgi_FukCqBwO6OOAOlVhMBBucYhkRHUrhYucCsR7NklYBzbgcTjlzUzz-7wOoszoLQY1uxMMIqWQMbaKoiyMy0okuH80wwTQx4XtG9-R4geMBR80soZoRc_yEolCEDvZ7IAVwDh4VrdmMkL4pxKqSiNTpJDaxQp9LqeuaBTdiMb275JYMYCjU0b934zkzEcLOu2-8GgqthDOORgrDQ3WSkov6akQtSzGCxwEmjM3rNa46NLMYTUcS4Igr7fXSzzSPb_8Oq4CGRoVM6M4Huie3FtcxA267vl0oI37FR8DxQ0Y0GbF_YOTJr652hopcf37jvAuaPdACzhFUMIld6OxeKpj_2W9YPYUgohpBw3WhDKMJ5l4Lb3TZtcLijUsuyGz2JklKUwlNudV0ildsVw2oUTuSqtjkugMJkfKIwBhiYSj1zXEhbIyfK28UUkv-mEQ-TqdsOJFCi2U_PTiRRmv6Dpz3OQe0ED6G2ffZI1CLJD8ckPNkr853Urh8BI388nHUIknQ1jNXXuYzUOf4BqWCCkCW6_ZfSurkI2y-ZB_5zHiXEiMFfr1aC6uxHa5ja_lcbhUnY8U0oJhvB6kjRKc0JFrs1w"
+            }
+        }
+    ]
+}
