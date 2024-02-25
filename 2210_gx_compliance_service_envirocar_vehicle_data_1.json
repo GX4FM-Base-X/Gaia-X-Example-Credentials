@@ -1,0 +1,55 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://storage.gaia-x.eu/credential-offers/b3e0a068-4bf8-4796-932e-2fa83043e203",
+    "issuer": "did:web:gx-compliance.gxdch.dih.telekom.com:v1",
+    "issuanceDate": "2024-02-25T21:42:38.236Z",
+    "expirationDate": "2025-02-24T21:42:38.236Z",
+    "credentialSubject": [
+        {
+            "type": "gx:compliance",
+            "id": "did:op:378ee4190de3403dd32506ee7bf97d39a891309caf913c11254b5f748cae7882",
+            "gx:integrity": "sha256-12f2cc010716640b5ff48e38f273980035c886ecff274e867d6ab5dddacc1d18",
+            "gx:integrityNormalization": "RFC8785:JCS",
+            "gx:version": "22.10",
+            "gx:type": "gx:ServiceOffering"
+        },
+        {
+            "type": "gx:compliance",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_52north.json",
+            "gx:integrity": "sha256-12e19325b2c3608269f4f95f6e7012976ad4c67bd0f7c1b359223c2c21aeb5b0",
+            "gx:integrityNormalization": "RFC8785:JCS",
+            "gx:version": "22.10",
+            "gx:type": "gx:LegalParticipant"
+        },
+        {
+            "type": "gx:compliance",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_52north.json",
+            "gx:integrity": "sha256-75ea455199e8439e2e159962a90b6f86a9bba098b2b1c4a5e62de0fd0689eaf5",
+            "gx:integrityNormalization": "RFC8785:JCS",
+            "gx:version": "22.10",
+            "gx:type": "gx:legalRegistrationNumber"
+        },
+        {
+            "type": "gx:compliance",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json",
+            "gx:integrity": "sha256-d424f310e296a340bd076a0bc2b661e82f8e539b2353c58a85e8b7b10c9a0eb7",
+            "gx:integrityNormalization": "RFC8785:JCS",
+            "gx:version": "22.10",
+            "gx:type": "gx:GaiaXTermsAndConditions"
+        }
+    ],
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-02-25T21:42:38.286Z",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nace4pX7y_KYfbWsDdFbCe6SkOmcBcEK4EpvZ8eAkn8LgCUB-I1FuiU61PPAys369_9eRDugTAwsvuClVaGAxNQ7Jy_AYK9a2_SCrxWQXZIbqrexPaEikkkfc1SB2r5lm7Di0bbXv8oSIrR-c5c3IFw2tbgirzEh_0r6QCOT3p2p_x0Pe-2IKVxIX9_QOYhWWCdF-8YnothzoKYedtK8Jhh5ZIAWCCfqNK23wIM4JlhntUVz5BdTkHnFvN_EtRv8y45FN3o3XaqyNO-H64FFzH7wNdKl1I3K3NLMkzQ1rVBldhc7VJ2aTDZmxcDpmrgjclwXVC0PYh7TJeYHFzgAmGV3NFLvo2B7-tPdJX5ZBFQwnzj_MyTELQKdl7xA1WTD7prAgzoAY4NM36DJIUaJ8aoa_NSLvGB1ShsLiS5lfNKbOrhk0lYYBpTc_rbRglqx_dhEZrI3rFCNUKjc55z-2VKbhgfbcyNJ2_nZhhLpZuv8FtBassH2QJ3Nka5DiIRgeL70sRZzwFK_WohoMdEw7jSkfnhw5rrywEtRwUEDEGXc_DWBQGygs70MCfbImnk84-VNF8jBbjRoQAaVXP489TG4CXqmxDsRk4vNCFDpcvfw6vsOrAuMNxoNqJ7RmxXox36nF9UdYvJt3mGDlHbMqKLfopt5fqN3B7Y7MOhYo7w",
+        "verificationMethod": "did:web:gx-compliance.gxdch.dih.telekom.com:v1#X509-JWK2020"
+    }
+}
