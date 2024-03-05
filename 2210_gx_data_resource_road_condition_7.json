@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_7.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2024-03-05T19:12:46.817Z",
+    "credentialSubject": {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_data_resource_road_condition_7.json",
+        "type": "gx:DataResource",
+        "gx:name": "Road Condition Images for Damage Detection 01",
+        "gx:description": "Contains road condition data. 20 JPG images with 720px resolution in one ZIP archive.",
+        "gx:containsPII": false,
+        "gx:policy": "default: allow",
+        "gx:license": "MIT",
+        "gx:copyrightOwnedBy": "Jay Gala",
+        "gx:producedBy": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+        },
+        "gx:exposedThrough": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_2.json"
+        }
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-03-05T19:12:46.863Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MukfkxsJwlW53tm7IdQEKQWSlyNBrep5puEggFO2sQa71JeLqcgENwDu9ahNQPj_AtYMmuBjUlY3u0Yq9AgJ39kSj2kQXCRJKPX-BsMGWAomB8J9QQTEFKSJQhTg9hGLou5z6p8ukD7FCoHPWXwtxFsxCamjb4566S14F33kMgZ04_1Ix1ZS4BnKXWicvMZQRt7bnKPeUEOOMPgkY68Kr-p1xkDLU8mtyPzmvvWJzILMj9JMrE_0j_TcPjVjUJnqb0gFhzz-u_wTi6RYtDrUu4_l4EOfWYtnQR8eOHgWvy7B4VSYeT2lCXszuyjgjg14FuveS7dk3QozlOtSfkwzhioWc-LTIG7nqSuoScho8GkJQoeu35j0Glm8rJfGoFKpODi3fn0AX5j99gBmA_Q99Wltgygzqr0MK23Y_XZh2keZB_Y6xb2nr2gtC62kUBDwlrg2BO71oC1Ga0HKmKojD1N8zXiWroCU_h4adcrpoy1lHTo7KC92e28KTGJb7VBJHCkSocEsmV2Cb7wRSMucgLCDTJed7dU8ue_hA3FEmrKJNEKDLOzkyj3S96OCPuM5G4QI3ASq__6HZIq33PDEwmOPaQTU1A1j4GAg-fNFRGcWD92bVPqpMow1_ws_IHbakQFv5RRvC9i7NFatOaurazsaeHDLVDHQRONV0MiTjtI"
+    }
+}
