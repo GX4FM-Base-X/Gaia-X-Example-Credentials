@@ -1,0 +1,54 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": "VerifiableCredential",
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_2.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2024-03-05T19:08:50.359Z",
+    "credentialSubject": {
+        "type": "gx:ServiceOffering",
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_service_ocean_provider_2.json",
+        "gx:providedBy": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+        },
+        "gx:maintainedBy": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant.json"
+        },
+        "gx:serviceOffering:name": "Ocean Provider Connector and Access Controller",
+        "gx:serviceOffering:description": "The Ocean Provider connects digital services to the ecosystem, acts as access controller and proxy.",
+        "gx:serviceOffering:serviceModel": "subscription",
+        "gx:policy": "free API access",
+        "gx:serviceOffering:webAddress": "https://dd1.provider.dev.pontus-x.eu",
+        "gx:serviceOffering:serviceEndpoint": "https://dd1.provider.dev.pontus-x.eu",
+        "gx:termsAndConditions": {
+            "gx:URL": "https://www.pontus-x.eu/terms",
+            "gx:hash": "9c02080e85776cefd12a2da90ca9619f465d1fccedc3d56b266255bfa0ae635a0280e6796811a30bde3060d1e35a9557e39661eac20b9599cd32fee3b27037a5"
+        },
+        "gx:serviceOffering:gdpr": [
+            {
+                "gx:serviceOffering:imprint": "https://www.delta-dao.com/imprint/"
+            },
+            {
+                "gx:serviceOffering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+            }
+        ],
+        "gx:serviceOffering:dataProtectionRegime": [
+            "GDPR2016"
+        ],
+        "gx:dataAccountExport": {
+            "gx:requestType": "email",
+            "gx:accessType": "digital",
+            "gx:formatType": "mime/png"
+        }
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-03-05T19:08:50.406Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qhUtUs1B9DfBKZyvnOeP47-a133TUObhj3ByH5LSdO9MaLagchYcnA1EFCWc9rgxhHYt8Yit2aCIYjmK1g1z-fOEz9x-HY_2faQdO6RCmWrsUR4G2Db57UUdULTk7D8n7PrmUVRxkcYok7_vkEFVz_TYrKsFHqjVI75Fjflu996y0oAAg44fNJMcyFIk2ODJAo28Iyxdk9tm2dZqc4TNaPxy-z94Zf7K6f6Hch2mefHhpOr5Jcx18i7XXshVkf2UVCfbR52ZTd9NBrCbeYHiem7eo5ORxjQeLD3s6lvyfERfHr6OAHfm-uZlDVF1JCWJEHJGWffF5rvJEgijgp-y-quUDD7XfzVaw2x10RIJxoWwa3F6Cz8N_AM4fgmYCU9wINodzbKe7anRioKwSPn1akRli0zppbiFSa7asPWsGVd5KhBL-qheJxEFJGWQbxtzX_XJTuHPeLhFtPYZEupy1PQoxNz0M_E4gTG0cBKUSnPrsdHDYbJ5hGu3GB8cik2K-04dt2_sEG8IdNLQzGIlPRYGmtwfnqXIHKOoSpDWS9BF3S6qhVvkMvoJC8tPsP9GA0IGXT_MxzZRFxhKcSY8ZBAjnyqHD8qPond1RxMnZo1WFiAzlIsy5pPyJD4hd4lsSAhgm6V8TqPb_S3HKMde9xTgL0B2Xln6qrJZKXzmjbw"
+    }
+}
